@@ -1,0 +1,77 @@
+*{padding: 0;margin: 0;}
+
+/* 清除浮动 */
+.clearfix:after {content: "";display: table;clear: both;}
+html, body { height: 100%; }
+body {
+    font-family:"Microsoft YaHei";
+    font-weight: 300;  font-size: 15px;  color: #333;overflow: hidden;
+    margin:0;
+    background:url("../images/bg_01.jpg") repeat;
+}
+a {text-decoration: none; color:#000;}
+a:hover{color:#F87982;}
+
+/*home*/
+#home{padding-top:100px;}
+
+.login_wrap{width:100%;height:100%;margin:0 auto;background:url("../images/g.png") top center no-repeat;}
+
+.login_logo{width: 680px; margin-left:auto;margin-right: auto; padding-top: 230px;background:url("../images/login_logo.png") top center no-repeat;}
+
+/*logint界面*/
+#login{
+    padding:20px 30px 30px; width:300px; background:#FFF; margin:auto;
+    /*border-radius: 3px;*/
+    /*box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);*/
+}
+
+
+#login h3{ font-size:18px; line-height:25px; font-weight:300; letter-spacing:3px; margin-bottom:20px; color:#C8C8C8; text-align:center;}
+#login label{ color:#888888; display:block; height:35px; padding:0 10px; font-size:12px; line-height:35px;  background:#EBEBEB; margin-bottom:15px;margin-top: 10px; position:relative;}
+#login label input{  font:13px/20px "Microsoft YaHei"; background:none;  height:20px; border:none; margin:7px 0 0 15px;padding: 0 10px; width:215px;outline:none ; letter-spacing:normal;  z-index:1; position:relative;  }
+#login button{
+    font-family:"Microsoft YaHei";
+    cursor:pointer;
+    width:300px;
+    height:35px;
+    background:#619191; border:none; font-size:14px; line-height:30px;  letter-spacing:3px; color:#FFF; position:relative; margin-top:15px;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;}
+#login button:hover{ background:#819191; color:#000;}
+
+/*logint界面*/
+#login2{
+    padding:20px 30px 30px; width:320px; background:none; margin:auto;
+    /*border-radius: 3px;*/
+    /*box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);*/
+}
+
+
+#login2 label{
+    color:#EEEFFF; display:block; height:35px; padding:0 10px; font-size:12px; line-height:35px;
+    background:url("../images/input-bg.png") center center no-repeat; margin-bottom:10px;position:relative;
+    border-radius: 3px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+#login2 label input{  font:13px/20px "Microsoft YaHei";color: #EEEFFF; background:none;  height:20px; border:none; margin:7px 0 0 10px;width:235px;outline:none ; letter-spacing:normal;  z-index:1; position:relative;  }
+#login2 button{
+    font-family:"Microsoft YaHei";
+    cursor:pointer;
+    width:320px;
+    height:35px;
+    background:#42ac4c; border:none; font-size:14px; line-height:30px;  letter-spacing:3px; color:#FFF; position:relative; margin-top:10px;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;}
+#login2 button:hover{ background:#52ba5b; color:#000;}
+
+/*头像*/
+.avator{
+    display:block;
+    margin:0 auto 20px;
+    border-radius:50%;
+}

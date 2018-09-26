@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+        "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+
+<urlrewrite>
+
+    <rule>
+        <from>^/pay/(.*)/payCallback/([0-9]+)</from>
+        <to>/pay/$1/payCallback?u8ChannelID=$2</to>
+    </rule>
+
+</urlrewrite>
+

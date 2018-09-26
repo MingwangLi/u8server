@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quicksdk_message>
+    <message>
+        <is_test>1</is_test>
+        <channel>1</channel>
+        <channel_uid>1</channel_uid>
+        <game_order>1</game_order>
+        <order_no>1</order_no>
+        <pay_time>1</pay_time>
+        <amount>1</amount>
+        <status>1</status>
+        <extras_params>1</extras_params>
+    </message>
+</quicksdk_message>
